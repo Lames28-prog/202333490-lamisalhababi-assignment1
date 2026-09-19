@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Personal portfolio of Lamis Alhababi, a Computer Science student at KFUPM.">
+
+    <title>Lamis Alhababi | Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- External JavaScript -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header>
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a href="#about" class="logo">Lamis Alhababi</a>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="theme-toggle"
+                type="button"
+                aria-label="Switch between light and dark mode">
+                🌙
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main>
+
+        <!-- ==================== ABOUT ==================== -->
+        <section id="about" class="about-section">
+
+            <div class="about-content">
+
+                <p class="tagline">
+                    Computer Science Student &amp; Aspiring Software Developer
+                </p>
+
+                <h1>Hello, I'm Lamis Alhababi</h1>
+
+                <p>
+                    I am a Computer Science student at King Fahd University of
+                    Petroleum &amp; Minerals (KFUPM) with an interest in software
+                    development and web technologies. I enjoy learning how
+                    technology can be used to solve real-world problems and
+                    create useful digital experiences.
+                </p>
+
+                <a href="#projects" class="primary-button">
+                    View My Projects
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== SKILLS ==================== -->
+        <section id="skills" class="skills-section">
+
+            <div class="section-container">
+
+                <h2>Skills</h2>
+
+                <p class="section-intro">
+                    Technologies and skills I am developing through my
+                    Computer Science studies and projects.
+                </p>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <h3>HTML</h3>
+                        <p>
+                            Creating structured and semantic web pages.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>CSS</h3>
+                        <p>
+                            Styling responsive and user-friendly web interfaces.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>
+                            Adding interactivity and dynamic behavior to websites.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Java</h3>
+                        <p>
+                            Applying programming and object-oriented concepts.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== PROJECTS ==================== -->
+<section id="projects" class="projects-section">
+
+    <div class="section-container">
+
+        <h2>Projects</h2>
+
+        <p class="section-intro">
+            A selection of projects created while developing my
+            programming and web development skills.
+        </p>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <article class="project-card">
+
+                <div class="project-placeholder" aria-label="Portfolio project placeholder">
+    &lt;/&gt;
+</div>
+
+                <div class="project-content">
+
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p>
+                        A responsive personal portfolio website built using
+                        HTML, CSS, and JavaScript to present my skills,
+                        projects, and contact information.
+                    </p>
+
+                    <p class="project-technologies">
+                        HTML • CSS • JavaScript
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- Project 2 -->
+            <article class="project-card">
+
+                <div class="project-placeholder" aria-label="Java project placeholder">
+    { }
+</div>
+
+                <div class="project-content">
+
+                    <h3>Java Programming Project</h3>
+
+                    <p>
+                        A programming project demonstrating fundamental
+                        Java concepts, problem-solving, and
+                        object-oriented programming techniques.
+                    </p>
+
+                    <p class="project-technologies">
+                        Java • Object-Oriented Programming
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- ==================== CONTACT ==================== -->
+        <section id="contact" class="contact-section">
+
+            <div class="section-container">
+
+                <h2>Contact Me</h2>
+
+                <p class="section-intro">
+                    Have a question or want to get in touch? Send me a message
+                    using the form below.
+                </p>
+
+                <form id="contact-form">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message"
+                            required></textarea>
+                    </div>
+
+
+                    <button type="submit" class="primary-button">
+                        Send Message
+                    </button>
+
+                    <p id="form-message" role="status" aria-live="polite"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+
+        <p>
+            &copy; <span id="current-year"></span> Lamis Alhababi.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

@@ -12,7 +12,7 @@ The portfolio was developed using HTML, CSS, and JavaScript. It is designed to w
 
 - About Me section with a short introduction and tagline
 - Skills section
-- Projects section with project descriptions
+- Projects section with project descriptions and SVG project illustrations
 - Contact form with Name, Email, and Message fields
 - Dark/light theme toggle
 - Saved theme preference using localStorage
@@ -29,6 +29,7 @@ The portfolio was developed using HTML, CSS, and JavaScript. It is designed to w
 - CSS Flexbox
 - CSS Grid
 - Media Queries
+- SVG
 - Git
 - GitHub
 
@@ -43,10 +44,10 @@ The portfolio was developed using HTML, CSS, and JavaScript. It is designed to w
 │   └── technical-documentation.md
 ├── js/
 │   └── script.js
-├── index.html
-├── README.md
-└── .gitattributes
+├── .gitattributes
 ├── .gitignore
+├── index.html
+└── README.md
 ```
 
 ## How to Run the Project Locally
@@ -59,7 +60,7 @@ The portfolio was developed using HTML, CSS, and JavaScript. It is designed to w
 
 ## AI Usage Summary
 
-ChatGPT was used as an AI-assisted development tool during this assignment. It helped with understanding the assignment requirements, planning the project structure, reviewing HTML and CSS organization, implementing responsive design, understanding JavaScript functionality, and preparing documentation.
+ChatGPT was used as an AI-assisted development tool during this assignment. It helped with understanding the assignment requirements, planning the project structure, reviewing HTML and CSS organization, implementing responsive design, understanding JavaScript functionality, creating project illustrations, and preparing documentation.
 
 All AI-assisted suggestions were reviewed and tested before being included in the final project. A detailed AI usage report is available in `docs/ai-usage-report.md`.
 
